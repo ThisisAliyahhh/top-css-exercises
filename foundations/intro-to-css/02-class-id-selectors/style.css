@@ -6,6 +6,16 @@
     font-weight: 500;
 }
 
-.odd.cooler {
+.odd.cooler, #second-id {
+    font-size: 24px;
+}
+
+#first-id {
+    color: #3434fa;
     font-size: 36px;
+}
+
+#second-id {
+    background-color: rgb(102, 233, 102);
+    font-weight: bold;
 }
