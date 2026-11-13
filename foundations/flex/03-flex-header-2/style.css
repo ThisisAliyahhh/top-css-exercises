@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
 }
 
 .profile-image {
@@ -29,12 +33,21 @@ body {
   font-style: italic;
 }
 
+.links {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-left: auto;
 }
 
 a {
